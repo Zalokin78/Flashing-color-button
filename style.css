@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #222;
+  font-size: 50px;
+}
+
+#button-colour {
+  position: relative;
+  top: 150px;
+  height: 300px;
+  width: 300px;
+  background-color: rgb(60, 224, 170);
+  margin: auto;
+  text-align: center;
+  line-height: 300px;
+  /* padding: 70px 0; */
+}
